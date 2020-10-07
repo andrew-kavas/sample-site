@@ -1,0 +1,1 @@
+exec docker run -it -p 3000:4000 -v $(pwd):/index sample-site
