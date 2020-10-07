@@ -2,9 +2,10 @@
   "name": "sample-site",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "routes/index.js",
   "type": "module",
   "dependencies": {
+    "body-parser": "1.19.0",
     "express": "4.17.1",
     "nodemon": "2.0.4"
   },
