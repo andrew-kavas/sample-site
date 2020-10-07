@@ -1,0 +1,5 @@
+To spin up docker container:
+docker run -it -p 3000:4000 -v $(pwd):/index sample-site
+
+To rebuild docker image:
+docker build -t sample-site .

@@ -1,6 +1,6 @@
 FROM node:14.13.0-alpine
-WORKDIR /app
-COPY package.json /app
+WORKDIR /index
+COPY package.json /index
 RUN npm install
-COPY . /app
+COPY . /index
 CMD ["npm", "start"]
